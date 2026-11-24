@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 // Tempelkan script ini ke objek Player (bersama script Inventory).
-public class PlayerPickup : MonoBehaviour
+public class TrashPickup : MonoBehaviour
 {
     [Header("Referensi")]
     public Inventory inventory;

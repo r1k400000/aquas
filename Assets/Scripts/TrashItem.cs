@@ -8,4 +8,7 @@ public class TrashItem : MonoBehaviour
     [Tooltip("Berapa slot yang dipakai sampah ini (1 sampai 5)")]
     [Range(1, 5)]
     public int slotSize = 1;
+
+    [Tooltip("Gambar ikon yang tampil di kotak slot")]
+    public Sprite icon;
 }

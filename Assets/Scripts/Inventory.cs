@@ -12,6 +12,7 @@ public class Inventory : MonoBehaviour
     {
         public string name;
         public int size;
+        public Sprite icon;
     }
 
     // Daftar sampah yang sudah diambil (bisa dilihat di Inspector saat Play)
@@ -41,7 +42,7 @@ public class Inventory : MonoBehaviour
     {
         if (!CanAdd(item.slotSize)) return false;
 
-        items.Add(new Entry { name = item.itemName, size = item.slotSize });
+        items.Add(new Entry { name = item.itemName, size = item.slotSize, icon = item.icon });
         if (OnChanged != null) OnChanged();
         return true;
     }
