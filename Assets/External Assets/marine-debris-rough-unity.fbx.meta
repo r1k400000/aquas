@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 22eae6f745e992749aae81dca5e5b3d1
+ModelImporter:
+  serializedVersion: 24300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 _ Chalky translucent polyethylene
+    second: {fileID: 2100000, guid: fa6998a7d13aea049bef7f57979fb7e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 _ Ice blue reclaimed PET
+    second: {fileID: 2100000, guid: eb79e5b403f027548bee66a4502d7222, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 _ Abraded vermilion lacquer
+    second: {fileID: 2100000, guid: 3a1f5c2d1f5e75b4e997e9aa80fc03f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 _ Exposed spun alloy
+    second: {fileID: 2100000, guid: faf4cd4f3e09ff641af9f314f0e607cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 _ Inner aluminium
+    second: {fileID: 2100000, guid: 1a05bc2fee89299459749ece2c73d960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 _ Worn pearl ink
+    second: {fileID: 2100000, guid: b8bf59a9aaf117b428b97845d88d7c05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04 _ Cobalt carboy resin
+    second: {fileID: 2100000, guid: 408d75abcd4d7984286a52ace9f6b9bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05 _ Carbon rubber _ embedded ochre
+    second: {fileID: 2100000, guid: a00c32bcf12124a42b50b7c6cdb021ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05 _ Scoured tread
+    second: {fileID: 2100000, guid: e25738ca9f9f14b41bea22f39a487fec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06 _ Compression seams
+    second: {fileID: 2100000, guid: f180467a11a055c4cbca949bae9b8113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06 _ Pressed ivory foam
+    second: {fileID: 2100000, guid: f9d9be045c437684083763bf02daaf08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 _ Burnished rust and iron
+    second: {fileID: 2100000, guid: afbbb94dfdbba1448bcb2aefe154581e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 _ Flaking heel and lip
+    second: {fileID: 2100000, guid: e9e1e016db271c94f8e9b6c1a211049d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 _ Oxidised marine-blue enamel
+    second: {fileID: 2100000, guid: 0e7f85111d6a0b14bb70b81324f7720a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 _ Faded oxide closure
+    second: {fileID: 2100000, guid: ef4a4fa50347781489d99312216fa467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 _ Sun-bleached HDPE
+    second: {fileID: 2100000, guid: af0312b9b734bdb459180f61c417bf50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 _ Bone cork
+    second: {fileID: 2100000, guid: 9a9cff24e19839e47aadd7ed3f0ded28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 _ Hemp selvage
+    second: {fileID: 2100000, guid: 19c9c8a575b27ea459b2628ddf2673d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 _ Kelp mesh
+    second: {fileID: 2100000, guid: df833e73c287684488285c66a6d48bd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 _ Sea-green mesh
+    second: {fileID: 2100000, guid: 08750aab51ca923409c708d08e3f2ec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 _ Weathered coral cork
+    second: {fileID: 2100000, guid: 571002a88e58b474d8a967df33ddf290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10 _ Bottle-green cullet
+    second: {fileID: 2100000, guid: 438d73ac3462ce74cbb80b89fc3dcee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10 _ Fracture surfaces
+    second: {fileID: 2100000, guid: 598a298cff238d14c81a5c05ecc25daf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Closures _ ultramarine HDPE
+    second: {fileID: 2100000, guid: 85b0fe13ec0f31949a2a64903a883001, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 02___Ice_blue_reclaimed_PET_Base_Color
+    second: {fileID: 2800000, guid: 0eb4937f47a20144c88d45adcae028ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 02___Ice_blue_reclaimed_PET_Normal
+    second: {fileID: 2800000, guid: 6b786de61c95c304e9f1a020dccfc558, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 02___Ice_blue_reclaimed_PET_Roughness_Roughness
+    second: {fileID: 2800000, guid: 7d4473fde666fff4d947e9c8e5e05c45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 03___Exposed_spun_alloy_Base_Color
+    second: {fileID: 2800000, guid: ed1988874ac10814ca38aa71e9c0dcaa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 03___Exposed_spun_alloy_Normal
+    second: {fileID: 2800000, guid: 0aa588995e0cfa9459b621ac7b0599e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 03___Exposed_spun_alloy_Roughness_Roughness
+    second: {fileID: 2800000, guid: 0edfebd7239d7d2408d3707aeb1b6182, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 04___Cobalt_carboy_resin_Base_Color
+    second: {fileID: 2800000, guid: fe3d1fdaef4639a4aab97988cbdebf2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 04___Cobalt_carboy_resin_Normal
+    second: {fileID: 2800000, guid: d160b1b69413b7f47a93198e3524adcf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 04___Cobalt_carboy_resin_Roughness_Roughness
+    second: {fileID: 2800000, guid: 525e7b8ff794fe84aa5aebcc364613fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 05___Carbon_rubber___embedded_ochre_Base_Color
+    second: {fileID: 2800000, guid: 32ecb84fc8632f844bcac18eb95139fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 05___Carbon_rubber___embedded_ochre_Normal
+    second: {fileID: 2800000, guid: fc6cd1d2e37e96548a33678bb6e7d8ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 05___Carbon_rubber___embedded_ochre_Roughness_Roughness
+    second: {fileID: 2800000, guid: f028b98d75271654f8943aa9eb65d6c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 06___Pressed_ivory_foam_Base_Color
+    second: {fileID: 2800000, guid: fe495c2dba64f454faed8da381b92ca5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 06___Pressed_ivory_foam_Normal
+    second: {fileID: 2800000, guid: a4c497f7cb85bfd47a97daa404368542, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 06___Pressed_ivory_foam_Roughness_Roughness
+    second: {fileID: 2800000, guid: 36d2feb30254925488f7f0b8cc19b1a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 07___Burnished_rust_and_iron_Base_Color
+    second: {fileID: 2800000, guid: c308deffa5a25d846925cd0b94d74e52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 07___Burnished_rust_and_iron_Normal
+    second: {fileID: 2800000, guid: 6ecdb8694b107b54293b2a2f74da8e5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 07___Burnished_rust_and_iron_Roughness_Roughness
+    second: {fileID: 2800000, guid: 546bbf1fd744fa3439e5fd4501d21953, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 07___Flaking_heel_and_lip_Base_Color
+    second: {fileID: 2800000, guid: b64a31972d02ae941a6e378148b6e59c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 07___Flaking_heel_and_lip_Normal
+    second: {fileID: 2800000, guid: 96bbfdb5bb502f14fb9d01a55b710e58, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 07___Flaking_heel_and_lip_Roughness_Roughness
+    second: {fileID: 2800000, guid: c01e1f1a8207149498224226584b9778, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 08___Sun-bleached_HDPE_Base_Color
+    second: {fileID: 2800000, guid: 5de88fd74a73bfe4c85991649b9a86db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 08___Sun-bleached_HDPE_Normal
+    second: {fileID: 2800000, guid: 46b30442c000a2245bd4161f86756451, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 08___Sun-bleached_HDPE_Roughness_Roughness
+    second: {fileID: 2800000, guid: d3d958c5f598c3941a907fa098c1f664, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 09___Hemp_selvage_Base_Color
+    second: {fileID: 2800000, guid: c00f4863074c64c45b839eb4c829bbf9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 09___Hemp_selvage_Normal
+    second: {fileID: 2800000, guid: 2347f46019f65a043ba494a61dce3a0c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 09___Hemp_selvage_Roughness_Roughness
+    second: {fileID: 2800000, guid: 0323db29ee0ad274584db1dc252c7050, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 09___Kelp_mesh_Base_Color
+    second: {fileID: 2800000, guid: ff0012e1d6b66a94292f4d80c8c4fdf7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 09___Kelp_mesh_Normal
+    second: {fileID: 2800000, guid: f6f265c51708a744987b90719dd1461b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 09___Kelp_mesh_Roughness_Roughness
+    second: {fileID: 2800000, guid: 25a920507198ba54fb9f032785c72dd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 09___Weathered_coral_cork_Base_Color
+    second: {fileID: 2800000, guid: 31974f94675445d41af69f1bc5f98fa3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 09___Weathered_coral_cork_Normal
+    second: {fileID: 2800000, guid: f05b1f5a88745c24eb95db0415cb33c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 09___Weathered_coral_cork_Roughness_Roughness
+    second: {fileID: 2800000, guid: d152b8372cc8384439ff84a9b52613df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10___Fracture_surfaces_Base_Color
+    second: {fileID: 2800000, guid: ea509114455169641b99bb624972e133, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10___Fracture_surfaces_Normal
+    second: {fileID: 2800000, guid: 67a91402fedad124a9e041710168d8aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10___Fracture_surfaces_Roughness_Roughness
+    second: {fileID: 2800000, guid: 9ec427229ae8c1c4dafc3c774feb5681, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Can___creased_painted_aluminium_03___Abraded_vermilion_la.001
+    second: {fileID: 2800000, guid: 0d0122f6070969449aff641fea9e8ad6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Can___creased_painted_aluminium_03___Abraded_vermilion_la_Rou
+    second: {fileID: 2800000, guid: e3c3bb4eabc6bca4e914ed1acb8667b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Can___creased_painted_aluminium_03___Abraded_vermilion_lacque
+    second: {fileID: 2800000, guid: c51214d1eb856334b88b4d86002fad7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Can___creased_painted_aluminium_03___Worn_pearl_ink_Base_Colo
+    second: {fileID: 2800000, guid: c357ffc8e480ac34b8ff0dc54a83feef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Can___creased_painted_aluminium_03___Worn_pearl_ink_Normal
+    second: {fileID: 2800000, guid: 9054036b398dab940b8e06de9511e6e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Can___creased_painted_aluminium_03___Worn_pearl_ink_Rough
+    second: {fileID: 2800000, guid: b49be22071df4e840a69223ca0cc7c65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Can___shadowed_interior_below_aperture_03___Inner_alumini
+    second: {fileID: 2800000, guid: 955f95a386db732448b663f18cc77c01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Can___shadowed_interior_below_aperture_03___Inner_aluminium_B
+    second: {fileID: 2800000, guid: e2efcb66899859946a39bb3313fffd0c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Can___shadowed_interior_below_aperture_03___Inner_aluminium_N
+    second: {fileID: 2800000, guid: e230cb36da675ef41ae84d5338008698, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Canister___red_threaded_cap_08___Faded_oxide_closure_Base_Col
+    second: {fileID: 2800000, guid: e47a0da215fd4d140b91c3933ca7501b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Canister___red_threaded_cap_08___Faded_oxide_closure_Normal
+    second: {fileID: 2800000, guid: df6cd9ccdb6071d449bfb8ff67cbc25d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Canister___red_threaded_cap_08___Faded_oxide_closure_Roug
+    second: {fileID: 2800000, guid: 9c0047da4faff1f40a823f6986b9d5a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Clamshell___folded_flange_and_shadow_seam_06___Compressio.001
+    second: {fileID: 2800000, guid: 11313742b8b885445be1bcd5f983cc72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Clamshell___folded_flange_and_shadow_seam_06___Compressio_Rou
+    second: {fileID: 2800000, guid: 3eb58002548784c44b64f60f2ef84aff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Clamshell___folded_flange_and_shadow_seam_06___Compression_se
+    second: {fileID: 2800000, guid: 767ba65dec7a35249955d9fea81167b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Closures___ultramarine_HDPE_Base_Color
+    second: {fileID: 2800000, guid: f780bccda2c809f479edee00b20d81ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Closures___ultramarine_HDPE_Normal
+    second: {fileID: 2800000, guid: beb1c9a2c7c1e694e92256d97239cb65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Closures___ultramarine_HDPE_Roughness_Roughness
+    second: {fileID: 2800000, guid: 30d853c7ed2ad5b4f8f5e8c7f7631f65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Film___crumpled_gussets_and_pierced_carrier_handles_01___.001
+    second: {fileID: 2800000, guid: ea89114fa20791a40962cd3c700e52f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Film___crumpled_gussets_and_pierced_carrier_handles_01___Chal
+    second: {fileID: 2800000, guid: ef9bd9ccd95cbd74fb50b7f62dbb36ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Film___crumpled_gussets_and_pierced_carrier_handles_01____Rou
+    second: {fileID: 2800000, guid: 96be266e4c296fe4a93bb914dfd3f362, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass___missing_body_shard__open_lip_and_jagged_walls_10_.001
+    second: {fileID: 2800000, guid: 9e3233e204b686f41a288df02bc6f4d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass___missing_body_shard__open_lip_and_jagged_walls_10__Rou
+    second: {fileID: 2800000, guid: d36e0da94ca041e45bc92b26bc13f170, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass___missing_body_shard__open_lip_and_jagged_walls_10___Bo
+    second: {fileID: 2800000, guid: 2251d770fe3a05744885b272bd609bc8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Net___bored_elliptical_fishing_float
+    second: {fileID: 2800000, guid: 34e7c4a4af03c104e802e49bc497c0fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Net___bored_elliptical_fishing_float.001_Roughness
+    second: {fileID: 2800000, guid: e3e6584da61b3ec4792e5727b2159f19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Net___bored_elliptical_fishing_float.002
+    second: {fileID: 2800000, guid: a8bd2d9ba81b3da4685113ce1d728133, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pail___dished_interior__flared_skin_and_rolled_lip_07___O.001
+    second: {fileID: 2800000, guid: 1ff0acade35eb3f45bf9ccba7b05e4e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pail___dished_interior__flared_skin_and_rolled_lip_07___O_Rou
+    second: {fileID: 2800000, guid: f046d11b07173f548a70a5a976a726a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pail___dished_interior__flared_skin_and_rolled_lip_07___Oxidi
+    second: {fileID: 2800000, guid: d7d74f87ccd6d7e46bdbdc7af2b7061b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tyre___staggered_chevron_shoulder_and_crown_blocks_05___S.001
+    second: {fileID: 2800000, guid: 4ddc2de4c3e170d4cb162c9fffe9b0e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tyre___staggered_chevron_shoulder_and_crown_blocks_05___S_Rou
+    second: {fileID: 2800000, guid: 15029cc5e88cf3048ac264ac11095a62, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tyre___staggered_chevron_shoulder_and_crown_blocks_05___Scour
+    second: {fileID: 2800000, guid: f99e08eda831b594f86c2a78f9500e89, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

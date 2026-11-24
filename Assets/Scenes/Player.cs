@@ -3,28 +3,29 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    //variabel
+    // Variabel
     public InputActionAsset InputActions;
     public CharacterController playerCharacterController;
     [SerializeField] private Transform playerCamera;
     [SerializeField] private Animator animator;
     [SerializeField] private float waterSurfaceY = 0f; // tinggi permukaan air
+    [SerializeField] private float minDistanceFromFloor = 1.0f; // jarak aman dari dasar laut
 
     private InputAction playerMoveAction;
     private InputAction playerJumpAction;
     private Vector2 playerMoveAmount;
     private float playerWalkSpeed = 5.0f;
-    private float playerSwimSpeed = 3.0f;
+    private float playerSwimSpeed = 8.0f;
     private float playerRotateDampening = 0.1f;
     private float turnSmoothingVelocity;
     private float verticalVelocity = 0f;
     private float gravity = -9.81f;
     private float jumpHeight = 5.0f;
 
-    private bool isInWater; //kl player dlm air
-    private float swimVerticalSpeed = 2.5f;
+    private bool isInWater; // kalau player dalam air
+    [SerializeField] private float swimVerticalSpeed = 7.0f; // makin besar angkanya, makin cepat naiknya
 
-    //siklus hidup
+    // Siklus hidup
     private void OnEnable() => InputActions.FindActionMap("Player").Enable();
     private void OnDisable() => InputActions.FindActionMap("Player").Disable();
 
@@ -34,18 +35,50 @@ public class Player : MonoBehaviour
         playerJumpAction = InputSystem.actions.FindAction("Jump");
     }
 
-    //deteksi Water
+    private void Start()
+    {
+        UpdateColliderSize(isInWater);
+    }
+
+    // Atur ukuran CharacterController otomatis
+    private void UpdateColliderSize(bool swimming)
+    {
+        if (swimming)
+        {
+            // Mode berenang (lebar agar badan & sirip tidak tembus pasir)
+            playerCharacterController.radius = 1.1f;
+            playerCharacterController.height = 2.2f;
+            playerCharacterController.center = new Vector3(0f, 0.5f, -0.15f);
+        }
+        else
+        {
+            // Mode darat (berdiri normal agar kaki menapak pasir)
+            playerCharacterController.radius = 0.4f;
+            playerCharacterController.height = 2.0f;
+            playerCharacterController.center = new Vector3(0f, 1.0f, 0f);
+        }
+    }
+
+    // Deteksi Water
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Water")) isInWater = true;
+        if (other.CompareTag("Water"))
+        {
+            isInWater = true;
+            UpdateColliderSize(true);
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Water")) isInWater = false;
+        if (other.CompareTag("Water"))
+        {
+            isInWater = false;
+            UpdateColliderSize(false);
+        }
     }
 
-    //update (tiap frame)
+    // Update (tiap frame)
     private void Update()
     {
         playerMoveAmount = playerMoveAction.ReadValue<Vector2>();
@@ -55,25 +88,70 @@ public class Player : MonoBehaviour
 
         MoveAndRotatePlayer();
 
+        // Update parameter Animator
         if (animator != null)
-            animator.SetBool("IsSwimming", isInWater);
+        {
+            bool isMoving = playerMoveAmount.magnitude >= 0.1f;
+            animator.SetBool("IsInWater", isInWater);
+            animator.SetBool("IsMoving", isMoving);
+        }
     }
 
-    //renang
+    // Pengunci ketinggian agar tidak pernah tembus Terrain
+    private void LateUpdate()
+    {
+        if (Terrain.activeTerrain != null)
+        {
+            float tinggiPasir = Terrain.activeTerrain.SampleHeight(transform.position)
+                                + Terrain.activeTerrain.transform.position.y;
+
+            // Saat berenang beri jarak aman sesuai minDistanceFromFloor, saat di darat pas di 0f
+            float batasBawah = isInWater ? tinggiPasir + minDistanceFromFloor : tinggiPasir;
+
+            if (transform.position.y < batasBawah)
+            {
+                playerCharacterController.enabled = false;
+                Vector3 pos = transform.position;
+                pos.y = batasBawah;
+                transform.position = pos;
+                playerCharacterController.enabled = true;
+            }
+        }
+    }
+
+    // Renang
     private void Swim()
     {
+        // Cek apakah dasar laut terlalu dekat di bawah player (abaikan Trigger seperti WaterVolume)
+        bool tooCloseToFloor = Physics.Raycast(
+            transform.position + Vector3.up * 0.5f,
+            Vector3.down,
+            minDistanceFromFloor + 0.5f,
+            Physics.DefaultRaycastLayers,
+            QueryTriggerInteraction.Ignore
+        );
+
         // Tombol Jump = naik, tanpa input = tenggelam pelan
         if (playerJumpAction.IsPressed())
+        {
             verticalVelocity = swimVerticalSpeed;
+        }
+        else if (playerCharacterController.isGrounded || tooCloseToFloor)
+        {
+            // Berhenti turun begitu sudah dekat dengan dasar laut
+            verticalVelocity = 0f;
+        }
         else
+        {
             verticalVelocity = Mathf.MoveTowards(verticalVelocity, -1.5f, 5f * Time.deltaTime);
+        }
 
         // Jangan naik melewati permukaan air
         if (transform.position.y >= waterSurfaceY && verticalVelocity > 0f)
             verticalVelocity = 0f;
     }
 
-    //lompat dan gravitasi(darat)
+    // Lompat dan gravitasi (darat)
     private void Jump()
     {
         if (playerCharacterController.isGrounded)
@@ -88,7 +166,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    //gerak dan putar
+    // Gerak dan putar
     private void MoveAndRotatePlayer()
     {
         float horizontalInput = playerMoveAmount.x;
