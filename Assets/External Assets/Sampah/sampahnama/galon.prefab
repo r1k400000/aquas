@@ -251,6 +251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TrashItem
   itemName: Galon
   slotSize: 2
+  value: 4
   icon: {fileID: 8928031033918332290, guid: d103b83aea10174419281c4b057e63d5, type: 3}
 --- !u!1 &7063195293445513813
 GameObject:

@@ -163,6 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TrashItem
   itemName: Sterofom
   slotSize: 1
+  value: 2
   icon: {fileID: -2398010806399793222, guid: 953a942cd64e4dd4da40b04b89115600, type: 3}
 --- !u!1 &4159675768245381712
 GameObject:

@@ -13,11 +13,23 @@ public class InventoryDisplay : MonoBehaviour
     [Tooltip("Isi dengan 5 Image kotak slot, urut dari kiri ke kanan")]
     public Image[] slotImages;
 
-    [Tooltip("Centang: ikon muncul di semua kotak yang dipakai (galon 2 kotak, ban 3 kotak). Kosongkan: hanya di kotak pertama.")]
-    public bool showIconOnAllSlots = true;
-
     public Color emptyColor = new Color(1f, 1f, 1f, 0.25f);
+
+    [Tooltip("Warna kotak kalau sampahnya tidak punya gambar (icon)")]
     public Color filledColor = new Color(0.3f, 0.9f, 0.4f, 1f);
+
+    [Tooltip("Sampah 2-3 slot: tampilkan gambar di semua slot yang dipakai (kalau mati, hanya di slot pertama)")]
+    public bool showIconInAllSlots = true;
+
+    Sprite[] defaultSprites;
+
+    void Awake()
+    {
+        // Simpan gambar bawaan tiap kotak supaya bisa dikembalikan saat slot kosong
+        defaultSprites = new Sprite[slotImages.Length];
+        for (int i = 0; i < slotImages.Length; i++)
+            if (slotImages[i] != null) defaultSprites[i] = slotImages[i].sprite;
+    }
 
     void OnEnable()
     {
@@ -38,54 +50,52 @@ public class InventoryDisplay : MonoBehaviour
     {
         if (inventory == null) return;
 
-        int index = 0;
+        int slot = 0;
 
-        // Isi kotak sesuai sampah yang diambil
+        // Isi slot sesuai urutan sampah yang diambil
         foreach (var entry in inventory.items)
         {
-            for (int k = 0; k < entry.size; k++)
+            for (int k = 0; k < entry.size && slot < slotImages.Length; k++, slot++)
             {
-                if (index >= slotImages.Length) break;
-
-                bool showIcon = showIconOnAllSlots || k == 0;
-                SetFilled(slotImages[index], entry.icon, showIcon);
-                index++;
+                bool useIcon = entry.icon != null && (k == 0 || showIconInAllSlots);
+                ApplyFilled(slot, useIcon ? entry.icon : null);
             }
         }
 
-        // Sisa kotak dikosongkan
-        for (; index < slotImages.Length; index++)
-        {
-            SetEmpty(slotImages[index]);
-        }
+        // Sisanya kosong
+        for (; slot < slotImages.Length; slot++)
+            ApplyEmpty(slot);
 
         if (slotText != null)
             slotText.text = "Slot: " + inventory.UsedSlots + "/" + inventory.maxSlots;
     }
 
-    void SetFilled(Image img, Sprite icon, bool showIcon)
+    void ApplyFilled(int index, Sprite icon)
     {
+        Image img = slotImages[index];
         if (img == null) return;
 
-        if (showIcon && icon != null)
+        if (icon != null)
         {
             img.sprite = icon;
-            img.color = Color.white;      // warna asli gambar
-            img.preserveAspect = true;    // gambar tidak gepeng
+            img.color = Color.white;
+            img.preserveAspect = true;
         }
         else
         {
-            // Tidak ada ikon: tetap hijau seperti sebelumnya
-            img.sprite = null;
+            img.sprite = defaultSprites[index];
             img.color = filledColor;
+            img.preserveAspect = false;
         }
     }
 
-    void SetEmpty(Image img)
+    void ApplyEmpty(int index)
     {
+        Image img = slotImages[index];
         if (img == null) return;
 
-        img.sprite = null;
+        img.sprite = defaultSprites[index];
         img.color = emptyColor;
+        img.preserveAspect = false;
     }
 }

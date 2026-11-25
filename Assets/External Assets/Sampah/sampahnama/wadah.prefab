@@ -437,6 +437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TrashItem
   itemName: Wadah
   slotSize: 1
+  value: 2
   icon: {fileID: 3453912899140000501, guid: 2b66d71d919f8804eaa16b9a1b3119e2, type: 3}
 --- !u!1 &5559528900259499983
 GameObject:

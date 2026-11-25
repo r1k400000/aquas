@@ -9,6 +9,9 @@ public class TrashItem : MonoBehaviour
     [Range(1, 5)]
     public int slotSize = 1;
 
+    [Tooltip("Berapa koin sampah ini kalau dijual ke Bank Sampah")]
+    public int value = 1;
+
     [Tooltip("Gambar ikon yang tampil di kotak slot")]
     public Sprite icon;
 }

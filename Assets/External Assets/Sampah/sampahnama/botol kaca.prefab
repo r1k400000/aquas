@@ -253,6 +253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TrashItem
   itemName: Botol Kaca
   slotSize: 1
+  value: 2
   icon: {fileID: -5758023185365643070, guid: b010bc3d73da89242ab5dadce3b638ad, type: 3}
 --- !u!1 &6102888980494699231
 GameObject:

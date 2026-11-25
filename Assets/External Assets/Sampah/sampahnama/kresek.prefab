@@ -67,8 +67,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757972446b842fa488b4c18df6a6a01b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrashItem
-  itemName: Kresek
+  itemName: Kantong Plastik
   slotSize: 1
+  value: 1
   icon: {fileID: -4292648026004753469, guid: 7a3de1ac0c660834590c62c454f28b60, type: 3}
 --- !u!1 &5033962824428845648
 GameObject:

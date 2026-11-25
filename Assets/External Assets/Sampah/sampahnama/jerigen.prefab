@@ -341,4 +341,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TrashItem
   itemName: Jerigen
   slotSize: 1
+  value: 2
   icon: {fileID: -2012865843158440074, guid: cffd20dfda804de4386e7b6ca3ccc89a, type: 3}

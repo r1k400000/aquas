@@ -69,8 +69,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757972446b842fa488b4c18df6a6a01b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrashItem
-  itemName: Botol Plasitik
+  itemName: Botol Plastik
   slotSize: 1
+  value: 2
   icon: {fileID: 8690071499982914565, guid: e4fa47c4d9d9cbf4f94ff4005fb5f26a, type: 3}
 --- !u!1 &3039570076287071994
 GameObject:

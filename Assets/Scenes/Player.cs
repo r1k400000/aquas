@@ -8,8 +8,12 @@ public class Player : MonoBehaviour
     public CharacterController playerCharacterController;
     [SerializeField] private Transform playerCamera;
     [SerializeField] private Animator animator;
-    [SerializeField] private float waterSurfaceY = 0f; // tinggi permukaan air
+    [SerializeField] private float waterSurfaceY = 73f; // tinggi permukaan air (samakan dengan OxygenSystem)
     [SerializeField] private float minDistanceFromFloor = 1.0f; // jarak aman dari dasar laut
+
+    // BARU: pengaturan deteksi air berdasarkan ketinggian
+    [SerializeField] private float enterWaterDepth = 0.3f;  // seberapa dalam di bawah permukaan baru dianggap berenang
+    [SerializeField] private float exitWaterHeight = 0.5f;  // seberapa di atas permukaan baru dianggap di darat
 
     private InputAction playerMoveAction;
     private InputAction playerJumpAction;
@@ -37,6 +41,8 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        // BARU: tentukan status air sejak awal
+        isInWater = transform.position.y < waterSurfaceY - enterWaterDepth;
         UpdateColliderSize(isInWater);
     }
 
@@ -59,28 +65,27 @@ public class Player : MonoBehaviour
         }
     }
 
-    // Deteksi Water
-    private void OnTriggerEnter(Collider other)
+    // BARU: menggantikan OnTriggerEnter dan OnTriggerExit.
+    // Status berenang ditentukan dari ketinggian player.
+    private void UpdateWaterState()
     {
-        if (other.CompareTag("Water"))
-        {
-            isInWater = true;
-            UpdateColliderSize(true);
-        }
-    }
+        bool wasInWater = isInWater;
+        float y = transform.position.y;
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Water"))
-        {
+        if (!isInWater && y < waterSurfaceY - enterWaterDepth)
+            isInWater = true;
+        else if (isInWater && y > waterSurfaceY + exitWaterHeight)
             isInWater = false;
-            UpdateColliderSize(false);
-        }
+
+        if (wasInWater != isInWater)
+            UpdateColliderSize(isInWater);
     }
 
     // Update (tiap frame)
     private void Update()
     {
+        UpdateWaterState(); // BARU: dipanggil paling atas
+
         playerMoveAmount = playerMoveAction.ReadValue<Vector2>();
 
         if (isInWater) Swim();
@@ -203,4 +208,4 @@ public class Player : MonoBehaviour
             playerCharacterController.Move(verticalMove);
         }
     }
-}
+} 

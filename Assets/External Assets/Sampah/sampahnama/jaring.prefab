@@ -9017,6 +9017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TrashItem
   itemName: Jaring
   slotSize: 1
+  value: 2
   icon: {fileID: 7404586432669688934, guid: ce72a320500659a469aad446b27bbd36, type: 3}
 --- !u!1 &7151946820035415371
 GameObject:

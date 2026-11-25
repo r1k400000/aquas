@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 408942892c8bec744b05bda8e93ab98b
+ModelImporter:
+  serializedVersion: 24300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aged brass
+    second: {fileID: 2100000, guid: ec46941c17e8fe248905363f050c5309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aged gum tape
+    second: {fileID: 2100000, guid: ce86e5e09ef5c284d9fce3fcee8ed37c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brushed scale steel
+    second: {fileID: 2100000, guid: b4c72ea963fc25a4e942aee117ed2328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Cap \u2022 chalk"
+    second: {fileID: 2100000, guid: 2babcb91641c000469121272e4358d31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Cap \u2022 leaf"
+    second: {fileID: 2100000, guid: 0251ed565ec53694e93ed230df0cbe4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Cap \u2022 tomato"
+    second: {fileID: 2100000, guid: 133f32e354516dc4fb58afb9eff05270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chipped indigo barrel
+    second: {fileID: 2100000, guid: 6ea9b56f80ee7294aa0b844c5e36be0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Cobalt crate \u2022 HDPE"
+    second: {fileID: 2100000, guid: d5336e4d2a7c02c4ba34a7d28c2edb9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Cobalt \u2022 woven waterproof fabric"
+    second: {fileID: 2100000, guid: 8fc3d82fbf47e9a46b65e200f12a4659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corrugated cut edge
+    second: {fileID: 2100000, guid: 3278f5d3984e66f48bde6fcaa581b875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dial numeral_mat
+    second: {fileID: 2100000, guid: 018829c8aecb4e44f875330ffea34d0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Dial \u2022 charcoal"
+    second: {fileID: 2100000, guid: b1d65732f7739964e841d41d64c1a517, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Drum \u2022 unpainted inside"
+    second: {fileID: 2100000, guid: 709bdbe7abb03d1469904ea96d67c204, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Enamel \u2022 warm ivory"
+    second: {fileID: 2100000, guid: 5cbae6b69f46c7a4db4f529bb180cff8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exposed steel edges
+    second: {fileID: 2100000, guid: 3e2ac5cc4bc105840932a2d75a214510, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Fern crate \u2022 HDPE"
+    second: {fileID: 2100000, guid: 239fa8192d658e8458225a04c4e787a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flax cord
+    second: {fileID: 2100000, guid: 6efdcd98d45470c44ae016b94e74dd69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Flysheet hem \u2022 marine blue"
+    second: {fileID: 2100000, guid: cafcef07971cc7c45afaab22da2f9325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Forged iron \u2022 dark patina"
+    second: {fileID: 2100000, guid: 9ecdfebc72ba0b34fa1cfa069ff53543, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Hem \u2022 reversed sack weave"
+    second: {fileID: 2100000, guid: 1438b78f6ca8e3b458cf882a1d29e90e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Kraft \u2022 buff"
+    second: {fileID: 2100000, guid: de72319972bc5d140ad1361e1d2168a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Kraft \u2022 honey"
+    second: {fileID: 2100000, guid: 3d1adec6a4550cc44a0009c5141e8b8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Kraft \u2022 ochre"
+    second: {fileID: 2100000, guid: aec489e21d0b42e45a1d392de6da4a6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Letterpress \u2022 BANK SAMPAH_mat"
+    second: {fileID: 2100000, guid: 6053fe99ffada24489db4042685b5ec0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Mill scale \u2022 salvaged steel"
+    second: {fileID: 2100000, guid: 2d3ee6c45b6d6714781e86ed422e2344, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oxide exposed
+    second: {fileID: 2100000, guid: 0c956bbbee55adf43a28d50a0be877ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oxidised steel
+    second: {fileID: 2100000, guid: 38bb9e2d7b7298f4da52b031eaceaa45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "PET \u2022 bottle green"
+    second: {fileID: 2100000, guid: 76fb069cc50a6b145b1a0644b442e4d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "PET \u2022 flint clear"
+    second: {fileID: 2100000, guid: 522eb8da47def214283567cb8eea5dd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "PET \u2022 glacial blue"
+    second: {fileID: 2100000, guid: 5927b49a123eaaa4d91f4761eea7b597, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "PET \u2022 ocean blue"
+    second: {fileID: 2100000, guid: 02dd4e9118532ba4e974d4cbb31266e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Recycling emblem_mat
+    second: {fileID: 2100000, guid: edb533f8925c90c49afd84d0a705f8ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rusty rolled edge
+    second: {fileID: 2100000, guid: 2f2bc984de46ac749b6605e3f37a4c6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Salvaged pine \u2022 grain X"
+    second: {fileID: 2100000, guid: 146838bf4346d7a44b79cf63259db46d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Sawn teak \u2022 grain X"
+    second: {fileID: 2100000, guid: a20b80d9f4db4cd48b74b26a2cce399e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Sawn teak \u2022 grain Y"
+    second: {fileID: 2100000, guid: 7293cc58b81fd3245b1512c6e322d5d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Sawn teak \u2022 grain Z"
+    second: {fileID: 2100000, guid: 2a6d215de204ce546a4257c9daca043b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Scrap bin \u2022 galvanized iron"
+    second: {fileID: 2100000, guid: ee85b729a052ddb4187432e1b301ecb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silvered iron
+    second: {fileID: 2100000, guid: 9071f4bc2143f74488c704bfb7f0fd1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Stencil \u2022 REDUCE_mat"
+    second: {fileID: 2100000, guid: 77b536ef3ef390943a07729dc3e36c22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Sunlit timber \u2022 grain X"
+    second: {fileID: 2100000, guid: d2a66ffe5537edc41a5e8bd08a39fffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Sunlit timber \u2022 grain Y"
+    second: {fileID: 2100000, guid: e98bc0b955ff1274a9f0c28e04443a24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Sunlit timber \u2022 grain Z"
+    second: {fileID: 2100000, guid: 297ed37345baf4a4f8aaed155464f8e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Used tyre \u2022 charcoal rubber"
+    second: {fileID: 2100000, guid: 2db85d90669fa7c4483705790ecdf9bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vermilion pointer
+    second: {fileID: 2100000, guid: 5d80459161a2e804884003e418868e08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vintage jade scale enamel
+    second: {fileID: 2100000, guid: 6be1c169b3a640c43b4e1c951f111c03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Warm black steel
+    second: {fileID: 2100000, guid: 15081925656bea14882d372850807117, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Washed label \u2022 blue"
+    second: {fileID: 2100000, guid: 8086750da0b1c974f90de46c39b0224b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Washed label \u2022 cream"
+    second: {fileID: 2100000, guid: 3fca1ac4fcaa69149bd68ee2e50f5cca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Washed label \u2022 sage"
+    second: {fileID: 2100000, guid: 6097d300d1d97964495233ac906922ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Weathered zinc
+    second: {fileID: 2100000, guid: d903fc7bc11888c469c7930da4f26a6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Woven polypropylene \u2022 flax white"
+    second: {fileID: 2100000, guid: 9aa1ce5427eedf947b76b90c5588de72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zinc
+    second: {fileID: 2100000, guid: 697a6f0a52c439f42a7679db158584a6, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Aged_brass_basecolor
+    second: {fileID: 2800000, guid: 74396fcfeecd44a429b1a41f4fc3de24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Aged_gum_tape_basecolor
+    second: {fileID: 2800000, guid: 659c3f081f31fa048bb57eb085439906, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Blue_open-head_drum_Chipped_indigo_barrel_Base_Color
+    second: {fileID: 2800000, guid: ee2aaf16e165a6e4291a16c0d175242c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Blue_open-head_drum_Chipped_indigo_barrel_Normal
+    second: {fileID: 2800000, guid: 4f3d16efe607db740bd719bb7b121856, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Blue_tarpaulin___creased_ridge_wrap_Cobalt___woven_wate
+    second: {fileID: 2800000, guid: 1ce26e9afd911a44abaf7b5a1a213b4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Blue_tarpaulin___creased_ridge_wrap_Cobalt___woven_waterpro
+    second: {fileID: 2800000, guid: 66745b8fde8339b418084d43bf33e678, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Brushed_scale_steel_basecolor
+    second: {fileID: 2800000, guid: 8ba4f31e510f8ba4687d93d777742b99, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cap___chalk_basecolor
+    second: {fileID: 2800000, guid: 14cd9cbbd0a06d649ba79581e5cd6c61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cap___leaf_basecolor
+    second: {fileID: 2800000, guid: b32efd324989d444e956a2e06b04f432, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cap___tomato_basecolor
+    second: {fileID: 2800000, guid: 0a56746647444e343ac0e73c96213938, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cobalt_crate___HDPE_basecolor
+    second: {fileID: 2800000, guid: 9162a11561aa5694e804f741dcdf343f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Corrugated_cut_edge_basecolor
+    second: {fileID: 2800000, guid: a298aa6d81b04cc4090e2b33347c6d7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Dial___charcoal_basecolor
+    second: {fileID: 2800000, guid: 7a2dc4bd93b6b984182c22ee9020076f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Dial_numeral_mat_basecolor
+    second: {fileID: 2800000, guid: c5d5d3f62b144d247b26b20ab0fba067, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Drum___unpainted_inside_basecolor
+    second: {fileID: 2800000, guid: 200685d6c913e7843a4c46481c57b298, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Enamel___warm_ivory_basecolor
+    second: {fileID: 2800000, guid: bd0360853ca18984fb073b65b32a4deb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Exposed_steel_edges_basecolor
+    second: {fileID: 2800000, guid: 128bd6c0ded6fac4f803f01128caba45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fern_crate___HDPE_basecolor
+    second: {fileID: 2800000, guid: 47aa0cf051669794680b6fb583b3dc50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Flax_cord_Base_Color
+    second: {fileID: 2800000, guid: 019e08037a088d341baa294b37d99683, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Flax_cord_Normal
+    second: {fileID: 2800000, guid: 5f09a35f2e6e0bc41851ca676c1835ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Flysheet_hem___marine_blue_basecolor
+    second: {fileID: 2800000, guid: d3d0e98f9cc2afc4ea7ef50c462421a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Forged_iron___dark_patina_basecolor
+    second: {fileID: 2800000, guid: 51ec594b9faca3941ab0dd4912d7a1fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hem___reversed_sack_weave_Base_Color
+    second: {fileID: 2800000, guid: 0756acfeddab1f340a8364acdc60a64b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hem___reversed_sack_weave_Normal
+    second: {fileID: 2800000, guid: 491ba7892c1b515419bcbb6b232315f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kraft___buff_Base_Color
+    second: {fileID: 2800000, guid: b54f751492f296c41bb9eb8b08e722dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kraft___buff_Normal
+    second: {fileID: 2800000, guid: fb67cc8bf53ca924aba71487914a75ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kraft___honey_Base_Color
+    second: {fileID: 2800000, guid: 16d5c23a0d8df3844b09b2fa9cca06fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kraft___honey_Normal
+    second: {fileID: 2800000, guid: ee39f04fab0faee4cb65b7308c59ab12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kraft___ochre_Base_Color
+    second: {fileID: 2800000, guid: a94ed887908a7c64e85e7021ee3ab4b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kraft___ochre_Normal
+    second: {fileID: 2800000, guid: abf8a737ddf3cb74da54c57ada67eec9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Letterpress___BANK_SAMPAH_mat_basecolor
+    second: {fileID: 2800000, guid: 0643aeb14d3c52c448292bfda972a56c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mill_scale___salvaged_steel_Base_Color
+    second: {fileID: 2800000, guid: 2d6c5b60ed7fcf246b5e8f2ff43e4509, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mill_scale___salvaged_steel_Normal
+    second: {fileID: 2800000, guid: a39080a62d5bfa549b44ea3bedb69267, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Oxide_exposed_Base_Color
+    second: {fileID: 2800000, guid: 3188e25d1128c914e88196734999560a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Oxide_exposed_Normal
+    second: {fileID: 2800000, guid: 1683f8cd5893df3408c468984a39779d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Oxidised_steel_basecolor
+    second: {fileID: 2800000, guid: 00ade6a09d96a574ba5262914f38a5a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PET___bottle_green_basecolor
+    second: {fileID: 2800000, guid: e4ab9b54d40fcb84e8105b5b308c5abb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PET___flint_clear_basecolor
+    second: {fileID: 2800000, guid: 442d4d4f1f747474286152e0758536be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PET___glacial_blue_basecolor
+    second: {fileID: 2800000, guid: 68ef277de96f6fd4f98eb083768f9664, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PET___ocean_blue_basecolor
+    second: {fileID: 2800000, guid: 42caf17926dac534c887a7b32204b4a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Recycling_emblem_mat_basecolor
+    second: {fileID: 2800000, guid: fd81d4d52351b274c8536f1329c6b585, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Retired_tyre_Used_tyre___charcoal_rubber_Base_Color
+    second: {fileID: 2800000, guid: 446e1ab35a7a6fe4e9ecd0dc79271bbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Retired_tyre_Used_tyre___charcoal_rubber_Normal
+    second: {fileID: 2800000, guid: fffa07423f013ae4ea10d4cbde4ffc30, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rusty_rolled_edge_basecolor
+    second: {fileID: 2800000, guid: 31a21d81cf30af945ae4841e6d0cc08e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Salvaged_pine___grain_X_Base_Color
+    second: {fileID: 2800000, guid: 98310d83815f40f4b8539a231669a8b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Salvaged_pine___grain_X_Normal
+    second: {fileID: 2800000, guid: a1b28cab9c988c846ae44b603de6ada4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sawn_teak___grain_X_Base_Color
+    second: {fileID: 2800000, guid: 1e5ebf5f7f74e884b8819c8e93e1a470, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sawn_teak___grain_X_Normal
+    second: {fileID: 2800000, guid: 6462904c2a7323b41b90ccf2c1d2c614, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sawn_teak___grain_Y_Base_Color
+    second: {fileID: 2800000, guid: 379ad524462e91d4c81fde7d7aa02ceb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sawn_teak___grain_Y_Normal
+    second: {fileID: 2800000, guid: 44a889e8264311648aca10a62b713132, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sawn_teak___grain_Z_Base_Color
+    second: {fileID: 2800000, guid: 38b5c12e900d85345bb69550f54be6a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sawn_teak___grain_Z_Normal
+    second: {fileID: 2800000, guid: beda5de67a3434246ae3a103e4755630, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Silvered_iron_Base_Color
+    second: {fileID: 2800000, guid: 26d64f36d3bc82747a6886c07888c8d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Silvered_iron_Normal
+    second: {fileID: 2800000, guid: 033d35dd40494454fbb62dde6604b9b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stencil___REDUCE_mat_basecolor
+    second: {fileID: 2800000, guid: 706ed4fbbfd19d4468a816bee792c04a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sunlit_timber___grain_X_Base_Color
+    second: {fileID: 2800000, guid: 644456870a6e6c44bbd9220e81b628bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sunlit_timber___grain_X_Normal
+    second: {fileID: 2800000, guid: 91d26e2adc36c994db0e1dc75edb563c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sunlit_timber___grain_Y_Base_Color
+    second: {fileID: 2800000, guid: e702fef9d6a37bd44af6a5272ce35edf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sunlit_timber___grain_Y_Normal
+    second: {fileID: 2800000, guid: 985e6a8df58367145baf8fa8edb71e91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sunlit_timber___grain_Z_Base_Color
+    second: {fileID: 2800000, guid: 81ee23a012b36ff4aac8d6995743445b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sunlit_timber___grain_Z_Normal
+    second: {fileID: 2800000, guid: 001f274f3a3daec4b88dddb85f2987b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vented_return_crate___lattice_and_lip
+    second: {fileID: 2800000, guid: 3313c0d1ea0f9ee499ad5a93f4902346, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vented_return_crate___lattice_and_lip.001
+    second: {fileID: 2800000, guid: d68578e74215b5b4ca1faae3597ec568, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vermilion_pointer_basecolor
+    second: {fileID: 2800000, guid: d198088f59c1a0e4b8b8e2768b00651c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vintage_jade_scale_enamel_Base_Color
+    second: {fileID: 2800000, guid: 05ec2336aa16e2647bfe54a13be22d51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vintage_jade_scale_enamel_Normal
+    second: {fileID: 2800000, guid: d392c4e50a0839f49b33b8408cf9115f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Warm_black_steel_basecolor
+    second: {fileID: 2800000, guid: a5dc2d46a777da94a80289544e6907bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Washed_label___blue_basecolor
+    second: {fileID: 2800000, guid: 8be362fe29d5a6748af2f3fee4dbff6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Washed_label___cream_basecolor
+    second: {fileID: 2800000, guid: c8a786c385a82bf49ba7416847a34cd1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Washed_label___sage_basecolor
+    second: {fileID: 2800000, guid: 8b20f009ccfb01d419130a940d8dbe6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Weathered_zinc_Base_Color
+    second: {fileID: 2800000, guid: f5b2b6498648aa24d8f9f8a2e01edbbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Weathered_zinc_Normal
+    second: {fileID: 2800000, guid: 4be2fadf2e0bbea468097fd1f63f028f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Woven_polypropylene___flax_white_Base_Color
+    second: {fileID: 2800000, guid: e185fb22c566d394699093823f5e9ef8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Woven_polypropylene___flax_white_Normal
+    second: {fileID: 2800000, guid: 4be8a548fe4a2004eaefe2930f383545, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Zinc_Base_Color
+    second: {fileID: 2800000, guid: 58cf4b036ad478e42bc416d08ebcf4d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Zinc_Normal
+    second: {fileID: 2800000, guid: ee7b92fc46a1fa14ca0a42cec33a91df, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
